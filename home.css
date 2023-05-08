@@ -1,0 +1,196 @@
+html{
+    font-family: Verdana, sans-serif;
+  }
+  
+  
+  
+  header {
+    background-color: #7ff6fa; /*sfondo titolo + nav*/
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #8de9ec ;  /*sfondo barra nav*/
+    text-align: center;
+  }
+  nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+  }
+  nav ul li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  nav ul li a {
+    color: #000000; /* colore testo nav */
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  nav ul ul li a {
+    background-color:#8de9ec; /*  colore quadrati nav che quando passi sopra con il mause senza cambiiare colore*/
+    color: #000000;
+    display: block;
+    padding: 10px 20px;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #579397;  /*sfondo nav quando passi con il mouse*/
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  
+  
+  .slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  /* pulsante prima e dopo */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* per posizionare il pulsante a destra*/
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* sfondo x quando passi con il mouse  */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* testo */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* numero testo */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* indicatori */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* aniamzione */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  
+  footer{
+    background-color:rgb(103, 214, 248);
+    padding:20px;
+    text-align:center;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+     .item {
+      flex: 1 0 200px;
+      margin: 10px;
+    }
+  
+    .testo{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 150px;
+      margin-right: 150px;
+    }
+  
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .item {
+      flex: 1 0 200px; 
+      margin: 10px;
+    }  
