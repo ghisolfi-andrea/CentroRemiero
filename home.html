@@ -1,20 +1,21 @@
 <html>
+	<head>
 	<title>Centro Remiero</title>
 
     <link rel="stylesheet" type="text/css" href="home.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="home.js"></script>
-<head>
 
-</head>
+	</head>
+
 	<header>
 		<h1><strong> Centro Remiero Lago di Pusiano </strong></h1>
 
 		<nav>
 		  <ul>
 			<li class="dropdown">
-				<a href="#">Home   </a>
+				<a href="home.html">Home   </a>
 				<ul class="dropdown-menu">
 				  <li><a href="#Storia"> Storia  </a></li>
 				  <li><a href="home.html">Il Consiglio</a></li>
@@ -24,7 +25,7 @@
 			  </li>
 
 			<li class="dropdown">
-			  <a href="#">Club House</a>
+			  <a href="clubhouse.html">Club House</a>
 			  <ul class="dropdown-menu">
 				<li><a href="#">Zona Relax</a></li>
 				<li><a href="#">Palestre</a></li>
@@ -34,7 +35,7 @@
 			</li>
 
 			<li class="dropdown">
-				<a href="#">Foresteria</a>
+				<a href="foresteria.html">Foresteria</a>
 				<ul class="dropdown-menu">
 				  <li><a href="#">Centro Remiero</a></li>
 				  <li><a href="#">Pusiano-Palazzo Beauharnais</a></li>
@@ -42,14 +43,15 @@
 			  </li>
 
 			  <li class="dropdown">
-				<a href="#">BoatHouse</a>
+				<a href="boathouse.html">BoatHouse</a>
 				<ul class="dropdown-menu">
 				  <li><a href="#">Hangar Barche</a></li>
 				  <li><a href="#">Pusiano-Palazzo Beauharnais</a></li>
 				</ul>
 			  </li>
 
-			<li><a href="#">Centro Estivo</a></li>
+			<li><a href="centro estivo.html">Centro Estivo</a></li>
+			<li><a href="iscrizione.html">Iscrizione</a></li>
 		  </ul>
 		</nav>
 	</header>
@@ -206,10 +208,11 @@ per la gestione del Centro. Primo ed unico progetto di aggregazione in Italia.</
 
 </div>	
 
-
-<div id="cookie-popup" class="cookie-popup">
-	<p>Questo sito utilizza i cookies per migliorare l'esperienza dell'utente. Clicca su Accetta per proseguire.</p>
-	<button id="accept-cookie" class="accept-cookie">Accetta</button>
+  <!-- Pop-up per i cookies -->
+  <div id="cookiePopup">
+	<p>Questo sito utilizza i cookie per offrire la migliore esperienza utente possibile. Continuando a navigare su questo sito, acconsenti all'utilizzo dei cookie.</p>
+	<button onclick="closeCookiePopup()">Accetta</button>
+	<button onclick="closeCookiePopup()">Rifiuta</button>
   </div>
 
 
