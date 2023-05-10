@@ -77,29 +77,17 @@
 
 	<div class="slideshow-container">
 		<div class="mySlides fade">
-		  <img src="immagine1.jpg" style="width:100%">
+		  <img src="immagini/foto1.jpg" alt="immagine1" style="width:100%">
 		</div>
 	  
 		<div class="mySlides fade">
-		  <img src="immagine2.jpg" style="width:100%">
+		  <img src="immagini/foto2.jpg" alt="immagine2" style="width:100%">
 		</div>
 	  
 		<div class="mySlides fade">
-		  <img src="https://www.canottierilario.it/wp-content/uploads/2020/07/BPP_6047-uai-1200x1200.jpg" style="width:100%">
+		  <img src="immagini/foto3.jpg" alt="immagine3" style="width:100%">
 		</div>
 	  </div>
-
-	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-	</div>
-	
-	<br>
-	
-	<div style="text-align:center">
-	  <span class="dot" onclick="currentSlide(1)"></span>
-	  <span class="dot" onclick="currentSlide(2)"></span>
-	  <span class="dot" onclick="currentSlide(3)"></span>
-	</div>
 
 	<div class="testo">
 	<h2> Sede</h2>
@@ -208,13 +196,14 @@ per la gestione del Centro. Primo ed unico progetto di aggregazione in Italia.</
 
 </div>	
 
-  <!-- Pop-up per i cookies -->
-  <div id="cookiePopup">
-	<p>Questo sito utilizza i cookie per offrire la migliore esperienza utente possibile. Continuando a navigare su questo sito, acconsenti all'utilizzo dei cookie.</p>
-	<button onclick="closeCookiePopup()">Accetta</button>
-	<button onclick="closeCookiePopup()">Rifiuta</button>
+<div id="cookiePopup">
+	<p>Questo sito utilizza i cookie per offrire la migliore esperienza utente possibile. Continuando a navigare su questo sito, acconsenti all'utilizzo dei cookie. <a href="#" id="cookieLink">Scopri di più</a></p>
+	
+	<div id="cookieButtons">
+	  <button id="cookieAcceptButton" onclick="acceptCookies()">Accetta</button>
+	  <button id="cookieRejectButton" onclick="rejectCookies()">Rifiuta</button>
+	</div>
   </div>
-
 
  <footer>
  <h2> Contatti </h2>
