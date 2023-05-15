@@ -120,10 +120,7 @@
             l’idea alla base del progetto: legare, anche idealmente, gli atleti alle acque del Lario”...
          </p>
       
-         <button onclick="mostraTesto1()">Mostra testo</button>
-
-
- <div id="testo" style="display: none;">
+ <article id="read-more" class="hidden">
  <p>a Canottieri Lario è un gioiello dell’architettura razionalista,datata 1931.
    Ora come allora è un edifico bianco, semplice , che trasmette immagine di forza e integrità.. 
    Secondo Luigi Cavadini: “si distende lungo la riva del lago, esibendo immediatamente l’idea alla base del progetto:
@@ -141,8 +138,9 @@
    e per finire il pontile di attracco semi galleggiante per l’andirivieni quotidiano degli atleti.
    Il resto dello spazio offre una gradita veranda lacustre, sfruttabile dai soci per le stagioni più belle.
  </p>
-</div>
+</article>
 
+<center> 	<button onclick="showMore()">Mostra di più</button> </center>
 
 
 <h2 id="Storia"> La Storia</h2>
@@ -153,9 +151,9 @@
  sempre più frequente, ed al vento che rende sempre più agitate le
  acque bellissime del lago di Como.</p>
 
- <button onclick="mostraTesto2()">Mostra testo</button>
 
-<div id="testo2"> 
+
+<article id="read-more2" class="hidden"> 
 <p> Si cercano alternative nei laghetti minori che, creati dallo stesso ghiacciaio
   che ha generato il Lago di Como, posti a semicerchio avvicinano il ramo di Lecco
    a quello di Como.
@@ -201,8 +199,20 @@ per la gestione del Centro. Primo ed unico progetto di aggregazione in Italia.</
   dei lavori ed alla posa della prima pietra;  nel novembre del 2012 iniziano i lavori per la
   realizzazione di quello che possiamo definire oggi uno dei centri di canottaggio più
   belli d’Italia.</p>
+</article>
+
+	<center> 	<button onclick="showMore2()">Mostra di più</button> </center>
 
 </div>
+
+
+<div id="cookiePopup">
+	<p>Questo sito utilizza i cookie per offrire la migliore esperienza utente possibile. Continuando a navigare su questo sito, acconsenti all'utilizzo dei cookie. <a href="#" id="cookieLink">Scopri di più</a></p>
+	<div id="cookieButtons">
+	  <button id="cookieAcceptButton" onclick="acceptCookies()">Accetta</button>
+	  <button id="cookieRejectButton" onclick="rejectCookies()">Rifiuta</button>
+	</div>
+  </div>
 
  <footer>
  <h2> Contatti </h2>
