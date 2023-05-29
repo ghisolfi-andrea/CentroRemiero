@@ -2,7 +2,23 @@ html{
     font-family: Verdana, sans-serif;
   }
   
-  
+body{
+  background-color:  #f1f1f1;
+}
+
+.testo {
+
+        width: auto;
+        background: #fff;
+        padding: 20px 20px 0;
+        font-size: 18px;
+        max-height: 270px;
+        overflow: hidden;
+        transition: max-height 1s;
+        text-align: justify;
+        margin-top: 20px;
+        border-radius: 10px;
+}
   
   header {
     background-color: #7ff6fa; /*sfondo titolo + nav*/
@@ -166,35 +182,10 @@ html{
     .prev, .next,.text {font-size: 11px}
   }
 
-
-
-
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  article {
-    width: 400px;
-    background: #fff;
-    padding: 20px 20px 0;
-    font-size: 18px;
-    max-height: 270px;
-    overflow: hidden;
-    transition: max-height 1s;
-    text-align: justify;
-    margin-top: 20px;
-  }
-
-  p {
-    margin-bottom: 16px;
-  }
-
-  article.open {
-    max-height: 1000px;
-  }
-
+  
+  
+  
+  
   button {
     background: #0e0b22;
     color: #fff;
@@ -209,55 +200,15 @@ html{
     background: #1e1d25;
   }
 
-  .hidden{
-
-    display: none;
-  }
-
-
+ 
 
 
   
 
 
-  #cookiePopup {
-    display: none;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #f2f2f2;
-    padding: 10px;
-    text-align: center;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  #cookiePopup p {
-    margin: 0 0 10px 0;
-  }
-  
-  #cookiePopup a {
-    color: #008CBA;
-    text-decoration: none;
-  }
-  
-  #cookiePopup button {
-    background-color: #008CBA;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-    margin-right: 10px;
-  }
-  
-  #cookieButtons {
-    display: inline-block;
-  }
-  
-  
 
+  
+  
 
 
 
